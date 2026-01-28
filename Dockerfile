@@ -1,6 +1,6 @@
 # ---------- pick the upstream ref you want ----------
 ARG UPSTREAM_REPO=https://github.com/Vatsim-Scandinavia/controlcenter.git
-ARG UPSTREAM_REF=v6.3.4   # or 'main'
+ARG UPSTREAM_REF=v6.4.3   # or 'main'
 
 # ---------- fetch upstream source ----------
 FROM alpine/git:latest AS src
